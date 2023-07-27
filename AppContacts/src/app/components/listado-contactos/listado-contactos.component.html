@@ -1,0 +1,92 @@
+<div class="title">
+    <h1>List of Contacts</h1>
+ </div>
+
+ <app-spinner *ngIf="loading"></app-spinner>
+ 
+ <div class="container">
+
+  <mat-card-content>
+
+    <form [formGroup]="formularioBusqueda" (ngSubmit)="buscarRangoEdad()" style="margin-top: 10px;">
+         <div class="clases-formulario">
+
+          <mat-form-field appearance="outline" style="margin-right: 12px;">
+            <mat-label>Filter</mat-label>
+            <input matInput (keyup)="applyFilter($event)" placeholder="Buscar" #input autocomplete="off">
+         </mat-form-field>
+                  
+             <mat-form-field appearance="outline">
+                <mat-label>Age Min.</mat-label>
+                <input matInput autocomplete="off" formControlName="ageinit">
+             </mat-form-field>
+              ---
+             <mat-form-field appearance="outline">
+              <mat-label>Age Max.</mat-label>
+              <input matInput autocomplete="off" formControlName="agefinal">
+           </mat-form-field>
+
+           
+
+             <button mat-raised-button color="accent"[disabled]="formularioBusqueda.invalid"
+             type="submit" style="margin-left: 10px;" class="boton-buscar">
+                <mat-icon>search</mat-icon>Search
+            </button>
+         </div>
+    </form>
+</mat-card-content>
+ 
+   <table mat-table [dataSource]="dataSource" class="mat-elevation-z8" matSort>
+ 
+     <!--- Note that these columns can be defined in any order.
+           The actual rendered columns are set as a property on the row definition" -->
+   
+     <!-- Position Column -->
+     <ng-container matColumnDef="firstName">
+       <th mat-header-cell *matHeaderCellDef mat-sort-header> First Name </th>
+       <td mat-cell *matCellDef="let element"> {{element.firstName}} </td>
+     </ng-container>
+ 
+     <ng-container matColumnDef="secondName">
+       <th mat-header-cell *matHeaderCellDef mat-sort-header> Second Name </th>
+       <td mat-cell *matCellDef="let element"> {{element.secondName}} </td>
+     </ng-container>
+ 
+     <ng-container matColumnDef="dateBirth">
+       <th mat-header-cell *matHeaderCellDef mat-sort-header> Date Birth </th>
+       <td mat-cell *matCellDef="let element"> {{element.dateBirth  | date:'dd/MM/yyy'}} </td>
+     </ng-container>
+ 
+     <ng-container matColumnDef="adresses">
+       <th mat-header-cell *matHeaderCellDef> Adresses </th>
+       <td mat-cell *matCellDef="let element"> {{element.adresses}} </td>
+     </ng-container>
+ 
+     <ng-container matColumnDef="phoneNumber">
+       <th mat-header-cell *matHeaderCellDef mat-sort-header> Phone Number </th>
+       <td mat-cell *matCellDef="let element"> {{element.phoneNumber}} </td>
+     </ng-container>
+
+     <ng-container matColumnDef="acciones">
+        <th mat-header-cell *matHeaderCellDef><button routerLink="/addContact" class="boton-aceptar" mat-raised-button color="primary"><mat-icon matTooltip="Add New" fontIcon="add"></mat-icon>Add New</button></th>
+        <td mat-cell *matCellDef="let element">
+            <mat-icon routerLink="/detailContact/{{element.id}}" matTooltip="Detail" class="search" fontIcon="search"></mat-icon>
+            <mat-icon routerLink="/editContact/{{element.id}}" matTooltip="Edit"  class="edit" fontIcon="edit"></mat-icon>
+            <mat-icon (click)="eliminarContacto(element.id)" matTooltip="Delete" class="delete" fontIcon="delete"></mat-icon>
+        </td>
+      </ng-container>
+
+     
+
+   
+     <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+     <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+   </table>
+ 
+   <mat-paginator [pageSizeOptions]="[5, 10, 20]"
+   showFirstLastButtons
+   aria-label="Select page of periodic elements">
+ </mat-paginator>
+ 
+ </div>
+

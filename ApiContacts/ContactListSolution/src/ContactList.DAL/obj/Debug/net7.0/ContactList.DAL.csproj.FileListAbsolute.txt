@@ -1,0 +1,15 @@
+D:\Programacion\proyect_tt\ContactListSolution\src\ContactList.DAL\bin\Debug\net7.0\ContactList.DAL.deps.json
+D:\Programacion\proyect_tt\ContactListSolution\src\ContactList.DAL\bin\Debug\net7.0\ContactList.DAL.dll
+D:\Programacion\proyect_tt\ContactListSolution\src\ContactList.DAL\bin\Debug\net7.0\ContactList.DAL.pdb
+D:\Programacion\proyect_tt\ContactListSolution\src\ContactList.DAL\obj\Debug\net7.0\ContactList.DAL.csproj.AssemblyReference.cache
+D:\Programacion\proyect_tt\ContactListSolution\src\ContactList.DAL\obj\Debug\net7.0\ContactList.DAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programacion\proyect_tt\ContactListSolution\src\ContactList.DAL\obj\Debug\net7.0\ContactList.DAL.AssemblyInfoInputs.cache
+D:\Programacion\proyect_tt\ContactListSolution\src\ContactList.DAL\obj\Debug\net7.0\ContactList.DAL.AssemblyInfo.cs
+D:\Programacion\proyect_tt\ContactListSolution\src\ContactList.DAL\obj\Debug\net7.0\ContactList.DAL.csproj.CoreCompileInputs.cache
+D:\Programacion\proyect_tt\ContactListSolution\src\ContactList.DAL\obj\Debug\net7.0\ContactList.DAL.dll
+D:\Programacion\proyect_tt\ContactListSolution\src\ContactList.DAL\obj\Debug\net7.0\refint\ContactList.DAL.dll
+D:\Programacion\proyect_tt\ContactListSolution\src\ContactList.DAL\obj\Debug\net7.0\ContactList.DAL.pdb
+D:\Programacion\proyect_tt\ContactListSolution\src\ContactList.DAL\obj\Debug\net7.0\ref\ContactList.DAL.dll
+D:\Programacion\proyect_tt\ContactListSolution\src\ContactList.DAL\bin\Debug\net7.0\ContactList.Model.dll
+D:\Programacion\proyect_tt\ContactListSolution\src\ContactList.DAL\bin\Debug\net7.0\ContactList.Model.pdb
+D:\Programacion\proyect_tt\ContactListSolution\src\ContactList.DAL\obj\Debug\net7.0\ContactList.DAL.csproj.CopyComplete

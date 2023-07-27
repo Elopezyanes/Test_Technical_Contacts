@@ -1,0 +1,17 @@
+D:\Programacion\proyect_tt\ContactListSolution\src\ContactList.Utility\bin\Debug\net7.0\ContactList.Utility.deps.json
+D:\Programacion\proyect_tt\ContactListSolution\src\ContactList.Utility\bin\Debug\net7.0\ContactList.Utility.dll
+D:\Programacion\proyect_tt\ContactListSolution\src\ContactList.Utility\bin\Debug\net7.0\ContactList.Utility.pdb
+D:\Programacion\proyect_tt\ContactListSolution\src\ContactList.Utility\obj\Debug\net7.0\ContactList.Utility.csproj.AssemblyReference.cache
+D:\Programacion\proyect_tt\ContactListSolution\src\ContactList.Utility\obj\Debug\net7.0\ContactList.Utility.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programacion\proyect_tt\ContactListSolution\src\ContactList.Utility\obj\Debug\net7.0\ContactList.Utility.AssemblyInfoInputs.cache
+D:\Programacion\proyect_tt\ContactListSolution\src\ContactList.Utility\obj\Debug\net7.0\ContactList.Utility.AssemblyInfo.cs
+D:\Programacion\proyect_tt\ContactListSolution\src\ContactList.Utility\obj\Debug\net7.0\ContactList.Utility.csproj.CoreCompileInputs.cache
+D:\Programacion\proyect_tt\ContactListSolution\src\ContactList.Utility\obj\Debug\net7.0\ContactList.Utility.dll
+D:\Programacion\proyect_tt\ContactListSolution\src\ContactList.Utility\obj\Debug\net7.0\refint\ContactList.Utility.dll
+D:\Programacion\proyect_tt\ContactListSolution\src\ContactList.Utility\obj\Debug\net7.0\ContactList.Utility.pdb
+D:\Programacion\proyect_tt\ContactListSolution\src\ContactList.Utility\obj\Debug\net7.0\ref\ContactList.Utility.dll
+D:\Programacion\proyect_tt\ContactListSolution\src\ContactList.Utility\bin\Debug\net7.0\ContactList.DTOs.dll
+D:\Programacion\proyect_tt\ContactListSolution\src\ContactList.Utility\bin\Debug\net7.0\ContactList.Model.dll
+D:\Programacion\proyect_tt\ContactListSolution\src\ContactList.Utility\bin\Debug\net7.0\ContactList.DTOs.pdb
+D:\Programacion\proyect_tt\ContactListSolution\src\ContactList.Utility\bin\Debug\net7.0\ContactList.Model.pdb
+D:\Programacion\proyect_tt\ContactListSolution\src\ContactList.Utility\obj\Debug\net7.0\ContactList.Utility.csproj.CopyComplete

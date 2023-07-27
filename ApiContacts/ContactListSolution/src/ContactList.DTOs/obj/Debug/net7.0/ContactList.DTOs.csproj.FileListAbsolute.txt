@@ -1,0 +1,12 @@
+D:\Programacion\proyect_tt\ContactListSolution\src\ContactList.DTOs\bin\Debug\net7.0\ContactList.DTOs.deps.json
+D:\Programacion\proyect_tt\ContactListSolution\src\ContactList.DTOs\bin\Debug\net7.0\ContactList.DTOs.dll
+D:\Programacion\proyect_tt\ContactListSolution\src\ContactList.DTOs\bin\Debug\net7.0\ContactList.DTOs.pdb
+D:\Programacion\proyect_tt\ContactListSolution\src\ContactList.DTOs\obj\Debug\net7.0\ContactList.DTOs.csproj.AssemblyReference.cache
+D:\Programacion\proyect_tt\ContactListSolution\src\ContactList.DTOs\obj\Debug\net7.0\ContactList.DTOs.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programacion\proyect_tt\ContactListSolution\src\ContactList.DTOs\obj\Debug\net7.0\ContactList.DTOs.AssemblyInfoInputs.cache
+D:\Programacion\proyect_tt\ContactListSolution\src\ContactList.DTOs\obj\Debug\net7.0\ContactList.DTOs.AssemblyInfo.cs
+D:\Programacion\proyect_tt\ContactListSolution\src\ContactList.DTOs\obj\Debug\net7.0\ContactList.DTOs.csproj.CoreCompileInputs.cache
+D:\Programacion\proyect_tt\ContactListSolution\src\ContactList.DTOs\obj\Debug\net7.0\ContactList.DTOs.dll
+D:\Programacion\proyect_tt\ContactListSolution\src\ContactList.DTOs\obj\Debug\net7.0\refint\ContactList.DTOs.dll
+D:\Programacion\proyect_tt\ContactListSolution\src\ContactList.DTOs\obj\Debug\net7.0\ContactList.DTOs.pdb
+D:\Programacion\proyect_tt\ContactListSolution\src\ContactList.DTOs\obj\Debug\net7.0\ref\ContactList.DTOs.dll

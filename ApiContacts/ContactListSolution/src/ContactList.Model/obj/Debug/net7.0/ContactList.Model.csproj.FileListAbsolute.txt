@@ -1,0 +1,14 @@
+D:\Programacion\proyect_tt\ContactListSolution\src\ContactList.Model\bin\Debug\net7.0\ContactList.Model.deps.json
+D:\Programacion\proyect_tt\ContactListSolution\src\ContactList.Model\bin\Debug\net7.0\ContactList.Model.runtimeconfig.json
+D:\Programacion\proyect_tt\ContactListSolution\src\ContactList.Model\bin\Debug\net7.0\ContactList.Model.dll
+D:\Programacion\proyect_tt\ContactListSolution\src\ContactList.Model\bin\Debug\net7.0\ContactList.Model.pdb
+D:\Programacion\proyect_tt\ContactListSolution\src\ContactList.Model\obj\Debug\net7.0\ContactList.Model.csproj.AssemblyReference.cache
+D:\Programacion\proyect_tt\ContactListSolution\src\ContactList.Model\obj\Debug\net7.0\ContactList.Model.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programacion\proyect_tt\ContactListSolution\src\ContactList.Model\obj\Debug\net7.0\ContactList.Model.AssemblyInfoInputs.cache
+D:\Programacion\proyect_tt\ContactListSolution\src\ContactList.Model\obj\Debug\net7.0\ContactList.Model.AssemblyInfo.cs
+D:\Programacion\proyect_tt\ContactListSolution\src\ContactList.Model\obj\Debug\net7.0\ContactList.Model.csproj.CoreCompileInputs.cache
+D:\Programacion\proyect_tt\ContactListSolution\src\ContactList.Model\obj\Debug\net7.0\ContactList.Model.dll
+D:\Programacion\proyect_tt\ContactListSolution\src\ContactList.Model\obj\Debug\net7.0\refint\ContactList.Model.dll
+D:\Programacion\proyect_tt\ContactListSolution\src\ContactList.Model\obj\Debug\net7.0\ContactList.Model.pdb
+D:\Programacion\proyect_tt\ContactListSolution\src\ContactList.Model\obj\Debug\net7.0\ContactList.Model.genruntimeconfig.cache
+D:\Programacion\proyect_tt\ContactListSolution\src\ContactList.Model\obj\Debug\net7.0\ref\ContactList.Model.dll

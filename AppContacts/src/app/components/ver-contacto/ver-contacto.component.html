@@ -1,0 +1,20 @@
+<div class="title">
+    <h1>Detail Contact</h1>
+</div>
+<app-spinner *ngIf="loading"></app-spinner>
+<div *ngIf="contact != null">
+    <mat-card class="card">
+        <mat-card-title style="margin-bottom: 30px;">{{contact.firstName}} {{contact.secondName}}</mat-card-title>
+        <mat-card-content>
+            <p><strong>Phone Number: </strong>{{contact.phoneNumber}}</p>
+            <p><strong>Adresses: </strong>{{contact.adresses}}</p>
+            <p><strong>Date Birth: </strong>{{contact.dateBirth}}</p>
+            <p><strong>Picture: </strong>{{contact.image}}</p>
+        </mat-card-content>
+        <mat-card-actions >
+            <button routerLink="/lisMascota" style="margin-top: 15px;" mat-raised-button>Back</button>
+        </mat-card-actions>
+    </mat-card>
+</div>
+
+

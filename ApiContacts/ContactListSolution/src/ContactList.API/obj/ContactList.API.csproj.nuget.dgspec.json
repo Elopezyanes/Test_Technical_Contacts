@@ -1,0 +1,466 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Programacion\\proyect_tt\\ContactListSolution\\src\\ContactList.API\\ContactList.API.csproj": {}
+  },
+  "projects": {
+    "D:\\Programacion\\proyect_tt\\ContactListSolution\\src\\ContactList.API\\ContactList.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Programacion\\proyect_tt\\ContactListSolution\\src\\ContactList.API\\ContactList.API.csproj",
+        "projectName": "ContactList.API",
+        "projectPath": "D:\\Programacion\\proyect_tt\\ContactListSolution\\src\\ContactList.API\\ContactList.API.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "D:\\Programacion\\proyect_tt\\ContactListSolution\\src\\ContactList.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files\\dotnet\\sdk\\7.0.302\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
+          "http://nexus.eccfg.cupet.cu:8081/repository/nuget.org-proxy/": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "D:\\Programacion\\proyect_tt\\ContactListSolution\\src\\ContactList.BLL\\ContactList.BLL.csproj": {
+                "projectPath": "D:\\Programacion\\proyect_tt\\ContactListSolution\\src\\ContactList.BLL\\ContactList.BLL.csproj"
+              },
+              "D:\\Programacion\\proyect_tt\\ContactListSolution\\src\\ContactList.DTOs\\ContactList.DTOs.csproj": {
+                "projectPath": "D:\\Programacion\\proyect_tt\\ContactListSolution\\src\\ContactList.DTOs\\ContactList.DTOs.csproj"
+              },
+              "D:\\Programacion\\proyect_tt\\ContactListSolution\\src\\ContactList.IOC\\ContactList.IOC.csproj": {
+                "projectPath": "D:\\Programacion\\proyect_tt\\ContactListSolution\\src\\ContactList.IOC\\ContactList.IOC.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Programacion\\proyect_tt\\ContactListSolution\\src\\ContactList.BLL\\ContactList.BLL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Programacion\\proyect_tt\\ContactListSolution\\src\\ContactList.BLL\\ContactList.BLL.csproj",
+        "projectName": "ContactList.BLL",
+        "projectPath": "D:\\Programacion\\proyect_tt\\ContactListSolution\\src\\ContactList.BLL\\ContactList.BLL.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "D:\\Programacion\\proyect_tt\\ContactListSolution\\src\\ContactList.BLL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "http://nexus.eccfg.cupet.cu:8081/repository/nuget.org-proxy/": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "D:\\Programacion\\proyect_tt\\ContactListSolution\\src\\ContactList.DAL\\ContactList.DAL.csproj": {
+                "projectPath": "D:\\Programacion\\proyect_tt\\ContactListSolution\\src\\ContactList.DAL\\ContactList.DAL.csproj"
+              },
+              "D:\\Programacion\\proyect_tt\\ContactListSolution\\src\\ContactList.DTOs\\ContactList.DTOs.csproj": {
+                "projectPath": "D:\\Programacion\\proyect_tt\\ContactListSolution\\src\\ContactList.DTOs\\ContactList.DTOs.csproj"
+              },
+              "D:\\Programacion\\proyect_tt\\ContactListSolution\\src\\ContactList.Model\\ContactList.Model.csproj": {
+                "projectPath": "D:\\Programacion\\proyect_tt\\ContactListSolution\\src\\ContactList.Model\\ContactList.Model.csproj"
+              },
+              "D:\\Programacion\\proyect_tt\\ContactListSolution\\src\\ContactList.Utility\\ContactList.Utility.csproj": {
+                "projectPath": "D:\\Programacion\\proyect_tt\\ContactListSolution\\src\\ContactList.Utility\\ContactList.Utility.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Programacion\\proyect_tt\\ContactListSolution\\src\\ContactList.DAL\\ContactList.DAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Programacion\\proyect_tt\\ContactListSolution\\src\\ContactList.DAL\\ContactList.DAL.csproj",
+        "projectName": "ContactList.DAL",
+        "projectPath": "D:\\Programacion\\proyect_tt\\ContactListSolution\\src\\ContactList.DAL\\ContactList.DAL.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "D:\\Programacion\\proyect_tt\\ContactListSolution\\src\\ContactList.DAL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "http://nexus.eccfg.cupet.cu:8081/repository/nuget.org-proxy/": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "D:\\Programacion\\proyect_tt\\ContactListSolution\\src\\ContactList.Model\\ContactList.Model.csproj": {
+                "projectPath": "D:\\Programacion\\proyect_tt\\ContactListSolution\\src\\ContactList.Model\\ContactList.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Programacion\\proyect_tt\\ContactListSolution\\src\\ContactList.DTOs\\ContactList.DTOs.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Programacion\\proyect_tt\\ContactListSolution\\src\\ContactList.DTOs\\ContactList.DTOs.csproj",
+        "projectName": "ContactList.DTOs",
+        "projectPath": "D:\\Programacion\\proyect_tt\\ContactListSolution\\src\\ContactList.DTOs\\ContactList.DTOs.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "D:\\Programacion\\proyect_tt\\ContactListSolution\\src\\ContactList.DTOs\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "http://nexus.eccfg.cupet.cu:8081/repository/nuget.org-proxy/": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Programacion\\proyect_tt\\ContactListSolution\\src\\ContactList.IOC\\ContactList.IOC.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Programacion\\proyect_tt\\ContactListSolution\\src\\ContactList.IOC\\ContactList.IOC.csproj",
+        "projectName": "ContactList.IOC",
+        "projectPath": "D:\\Programacion\\proyect_tt\\ContactListSolution\\src\\ContactList.IOC\\ContactList.IOC.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "D:\\Programacion\\proyect_tt\\ContactListSolution\\src\\ContactList.IOC\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "http://nexus.eccfg.cupet.cu:8081/repository/nuget.org-proxy/": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "D:\\Programacion\\proyect_tt\\ContactListSolution\\src\\ContactList.BLL\\ContactList.BLL.csproj": {
+                "projectPath": "D:\\Programacion\\proyect_tt\\ContactListSolution\\src\\ContactList.BLL\\ContactList.BLL.csproj"
+              },
+              "D:\\Programacion\\proyect_tt\\ContactListSolution\\src\\ContactList.DAL\\ContactList.DAL.csproj": {
+                "projectPath": "D:\\Programacion\\proyect_tt\\ContactListSolution\\src\\ContactList.DAL\\ContactList.DAL.csproj"
+              },
+              "D:\\Programacion\\proyect_tt\\ContactListSolution\\src\\ContactList.Utility\\ContactList.Utility.csproj": {
+                "projectPath": "D:\\Programacion\\proyect_tt\\ContactListSolution\\src\\ContactList.Utility\\ContactList.Utility.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Programacion\\proyect_tt\\ContactListSolution\\src\\ContactList.Model\\ContactList.Model.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Programacion\\proyect_tt\\ContactListSolution\\src\\ContactList.Model\\ContactList.Model.csproj",
+        "projectName": "ContactList.Model",
+        "projectPath": "D:\\Programacion\\proyect_tt\\ContactListSolution\\src\\ContactList.Model\\ContactList.Model.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "D:\\Programacion\\proyect_tt\\ContactListSolution\\src\\ContactList.Model\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "http://nexus.eccfg.cupet.cu:8081/repository/nuget.org-proxy/": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[7.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.9, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Programacion\\proyect_tt\\ContactListSolution\\src\\ContactList.Utility\\ContactList.Utility.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Programacion\\proyect_tt\\ContactListSolution\\src\\ContactList.Utility\\ContactList.Utility.csproj",
+        "projectName": "ContactList.Utility",
+        "projectPath": "D:\\Programacion\\proyect_tt\\ContactListSolution\\src\\ContactList.Utility\\ContactList.Utility.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "D:\\Programacion\\proyect_tt\\ContactListSolution\\src\\ContactList.Utility\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "http://nexus.eccfg.cupet.cu:8081/repository/nuget.org-proxy/": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "D:\\Programacion\\proyect_tt\\ContactListSolution\\src\\ContactList.DTOs\\ContactList.DTOs.csproj": {
+                "projectPath": "D:\\Programacion\\proyect_tt\\ContactListSolution\\src\\ContactList.DTOs\\ContactList.DTOs.csproj"
+              },
+              "D:\\Programacion\\proyect_tt\\ContactListSolution\\src\\ContactList.Model\\ContactList.Model.csproj": {
+                "projectPath": "D:\\Programacion\\proyect_tt\\ContactListSolution\\src\\ContactList.Model\\ContactList.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

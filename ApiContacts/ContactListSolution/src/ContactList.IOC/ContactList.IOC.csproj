@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ContactList.BLL\ContactList.BLL.csproj" />
+    <ProjectReference Include="..\ContactList.DAL\ContactList.DAL.csproj" />
+    <ProjectReference Include="..\ContactList.Utility\ContactList.Utility.csproj" />
+  </ItemGroup>
+
+</Project>
